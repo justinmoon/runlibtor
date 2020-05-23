@@ -63,8 +63,7 @@ dependencies = [
 [[package]]
 name = "libtor-sys"
 version = "42.7.0+0.4.2.7"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7aedfa2ddf7db10a609004c30cc9eba728a1432875992589038b9004eb02a5a7"
+source = "git+https://github.com/MagicalBitcoin/libtor-sys?branch=disable-seccomp#f242d4834e4375acabc5b491af3fb4799ab2f2c3"
 dependencies = [
  "autotools",
  "cc",

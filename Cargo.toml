@@ -8,3 +8,6 @@ edition = "2018"
 
 [dependencies]
 libtor = { git = "https://github.com/MagicalBitcoin/libtor" }
+
+[patch.crates-io]
+libtor-sys = { git = "https://github.com/MagicalBitcoin/libtor-sys", branch = "disable-seccomp" }
